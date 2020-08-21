@@ -1,54 +1,51 @@
-body {
-    background-color: black;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio Vladimir Chagas</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <p class="link">
+        <a href="#foto">Sobre</a>
+        |
+        <a href="#habilidades">Habilidades</a>
+    </p>
 
-.link {
-    background-color: #1098F7;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+    <h1 id="foto">VLADIMIR RAMBALDI CHAGAS | PORTFÓLIO WEB</h1>
 
-a{
-    text-decoration: none;
-    color: white
-}
+    <img src="images/vladimir.png" alt="Vladimir Rambaldi Chagas - Close Oficial" Width="300">
 
-h1 {
-    text-align: center;
-    background-color: white;
-}
+    <h1>Saiba Um Pouco De Mim</h1>
 
-.imagem-perfil{
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    <p class="texto-principal">
+        Sou Vladimir Chagas, 32 Anos, Marido da Tamires Pimenta e pai de 3 caninos (Toy, Mimosa e Woody)
+        <br><br>
+        Sou Natural de <strong class="destaque">Varginha/MG</strong> mas atualmente me resido em <strong class="destaque">Navegantes/SC</strong>
+        <br><br>
+        Sou formado em <strong>Ciência da computação</strong> com <strong>MBA em Planejamento e Gestão Estratégica</strong>
+    </p>
 
-.texto-principal{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: white;
-}
+    <h1 id="habilidades">Habilidades</h1>
 
-.habilidades{
-    color: white;
-}
+    <ul class="habilidades">
+        <li class="habilidades-principais"><strong>Excel Avançado</strong></li>
+        <li class="habilidades-principais"><strong>VBA</strong></li>
+        <li>Power BI</li>
+        <li>Scrum</li>
+        <li>Gestão de Pessoas</li>
+        <li>Desenvolvimento de processos/procedimentos</li>
+        <li>MASP</li>
+        <li>Yellow Belt/Six Sigma</li>
+    </ul><br>
 
-.habilidades-principais{
-    font-size: 25px;
-}
+    <em class="ps">**Apresento <strong>background em TI</strong> por conta de minha formação mas minhas habilidades estão mais atreladas à Engenharia e Gestão pois fiquei 7 anos longe de TI, estando somente em Engenharia</em> <br>
 
-.ps{
-    font-size: 13px;
-    color: white;
-}
+    <h1>Quer saber mais sobre mim, acesse meu LinkedIn: </h1>
 
-.destaque{
-    background-color: white;
-    color: black;
-}
+    <p class="link" >
+        <a href="https://www.linkedin.com/in/vladimir-rambaldi-chagas/" target="_blank">LinkedIn Vladimir Chagas</a>
+    </p>
+
+</body>
+</html>
