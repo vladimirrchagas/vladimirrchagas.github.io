@@ -1,0 +1,62 @@
+.black {
+  background-color: black;
+}
+
+.button-clear , .color-palette , .dynamic-board {
+  text-align: center;
+  width: 200px;
+}
+
+.color , .pixel , .pixel-board {
+  border: 1px solid black;
+}
+
+.color-palette {
+  margin-bottom: 10px;
+}
+
+.dynamic-board {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.pixel {
+  background-color: white;
+  border-spacing: 0;
+  display: table-column;
+  vertical-align: top;
+}
+
+.pixel-board {
+  display: table;
+  height: 210px;
+  width: 210px;
+}
+
+.random-color1 {
+  background-color: green;
+}
+
+.random-color2 {
+  background-color: red;
+}
+
+.random-color3 {
+  background-color: blue;
+}
+
+.size-color-rectangle , .pixel {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+input {
+  width: 100px;
+}
+
+body {
+  margin: 10;
+  padding: 0;
+}
