@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  margin: 0;
+  padding: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  display: block;
+  background-color: rgb(29 , 133 , 62);
+  width: 100%;
+  text-align: center;
+  color: rgb(255 , 255 , 255);
+  z-index: 1;
+  text-shadow: 2px 2px rgb(54 , 51 , 51);
+}
+
+img {
+  margin-top: 120px;
+  text-align: center;
+  border: 15px solid rgb(29 , 133 , 62);
+}
+
+.navegador {
+  position: fixed;
+  display: block;
+  width: 100%;
+  margin-top: 70px;
+  z-index: 2;
+  text-align: center;
+  background-color: rgb(29 , 133 , 62);
+  padding: 10px;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.artigos_e_relatos {
+  line-height: 1.5em;
+  font-style: italic;
+  box-shadow: 10px 10px rgb(54 , 51 , 51);
+  padding: 10px;
+}
+
+.subtitulos {
+  display: block;
+  background-color: rgb(29 , 133 , 62);
+  font-family: Impact, Haettenschweiler, sans-serif;
+  color: rgb(255 , 255 , 255);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px rgb(54 , 51 , 51);
+}
+
+.imagem {
+  display: block;
+  text-align: center;
+}
+
+#rodape {
+  background-color: rgb(29 , 133 , 62);
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: rgb(255 , 255 , 255);
+  font-style: italic;
+  font-family: monospace;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+a:link , a:visited {
+  text-decoration: none;
+  color: rgb(0 , 0 , 0);
+}
+
+a:hover {
+  color: rgb(255 , 255 , 255);
+}
+
+.redes-sociais {
+  background-color: rgb(29 , 133 , 62);
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
