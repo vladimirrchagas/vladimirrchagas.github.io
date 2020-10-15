@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook - entre ou cadastre-se</title>
+  <link rel="shortcut icon" href="imgs/shortcut-icon.png">
+</head>
+<body>
+  <div class="top-bar">
+    <img src="imgs/facebook-logo.png" class="facebook-logo">
+
+    <form action="" method="post" class="facebook-login">
+        <div class="form-group">
+          <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+          <input type="text" name="user-email-phone" id="user-email-phone">
+        </div>
+        <div class="form-group">
+          <label for="user-password" id="user-password-label">Senha</label>
+          <input type="text" name="user-password" id="user-password">
+          <a href="https://www.facebook.com/recover/initiate?lwv=110" target="_blank" class="miss-account">Esqueceu a conta?</a>
+        </div>
+          <div class="form-control">
+            <button type="submit" id="button-login" class="button-login">Entrar</button>
+          </div>
+    </form>
+  </div>
+
+  <div class="main-content">
+    <div class="left-content">
+      <p id="facebook-slogan" class="facebook-slogan">
+        O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+      </p>
+      <img class="facebook-networking" id="facebook-networking" src="imgs/networking.png" alt="">
+    </div>
+    <div class="right-content">
+      <h1>Abra uma conta</h1>
+      <span class="quick-easy">É rápido e fácil.</span>
+      <form action="" class="form-register">
+        <div class="name-form-register">
+          <input type="text" name="firstname" id="firstname" placeholder="Nome" required>
+          <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" required>
+        </div>
+
+        <div class="aditional-data">
+          <input type="text" name="phone_email" id="phone-email" placeholder="Celular ou email" required>
+          <input type="password" name="password" id="password" placeholder="Nova senha" required>
+          <label for="" class="date-label" id="label-birthdate" required>Data de nascimento</label>
+          <div class="date">
+            <input type="text" class="date-value" name="birthdate" id="birthdate" placeholder="dd/mm/aaaa" required>
+            <span class="question">Por que preciso informar minha data de nascimento?</span>
+          </div>
+          <label for="" id="label-gender">Gênero</label>
+          <div class="radio-buttons">
+            <input class="radio" type="radio" name="gender" id="Feminino" required value="Feminino">Feminino
+            <input class="radio" type="radio" name="gender" id="Masculino" required value="Masculino">Masculino
+            <input class="radio" type="radio" name="gender" id="Personalizado" required value="Personalizado">Personalizado
+          </div>
+          <input type="text" class="gender-custom" name="gender-custom" id="" placeholder="Gênero (opcional)">
+          <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="https://pt-br.facebook.com/legal/terms/update">Termos</a>, <a href="https://pt-br.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://pt-br.facebook.com/policy/cookies">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+          <span class="error-form">Campos inválidos</span>
+          <button type="submit" id="facebook-register" class="button-register">Cadastre-se</button>
+        </div>
+        <p class="create-page"><a href="https://pt-br.facebook.com/pages/create/">Crie uma página</a> para uma celebridade, banda ou empresa</p>
+      </form>
+    </div>
+  </div>
+  <div class="idiomas">
+    <ul>
+      <li>Português (Brasil)</li>
+      <li><a href="https:/de-de.facebook.com/">Deutsch</a></li>
+      <li><a href="https:/www.facebook.com/">English (US)</a></li>
+      <li><a href="https:/es-la.facebook.com/">Español</a></li>
+      <li><a href="https:/fr-fr.facebook.com/">Français (France)</a></li>
+      <li><a href="https:/zh-cn.facebook.com/">中文(简体)</a></li>
+      <li><a href="https:/ar-ar.facebook.com/">العربية</a></li>
+      <li><a href="https:/it-it.facebook.com/">Italiano</a></li>
+      <li><a href="https:/ko-kr.facebook.com/">한국어</a></li>
+      <li><a href="https:/hi-in.facebook.com/">हिन्दी</a></li>
+      <li><a href="https:/ja-jp.facebook.com/">日本語</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div class="links">
+    <ul>
+      <li><a href="https:/pt-br.facebook.com/r.php">Inscreva-se</a></li>
+      <li><a href="https:/pt-br.facebook.com/login/">Entrar</a></li>
+      <li><a href="https:/pt-br.messenger.com/">Messenger</a></li>
+      <li><a href="https:/pt-br.facebook.com/lite/">Facebook Lite</a></li>
+      <li><a href="https:/pt-br.facebook.com/find-friends?ref=pf">Encontrar amigos</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/people_remain/">Pessoas</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/people_sm/">Perfis</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/pages/">Páginas</a></li>
+      <li><a href="https:/pt-br.facebook.com/pages/category/">Categorias de Página</a></li>
+      <li><a href="https:/pt-br.facebook.com/places/">Locais</a></li>
+      <li><a href="https:/pt-br.facebook.com/games/">Jogos</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/places/">Locais</a></li>
+      <li><a href="https:/pt-br.facebook.com/marketplace/directory/">Marketplace</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/groups/">Grupos</a></li>
+      <li><a href="https:/l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2F&h=AT1zq-cZMZMWLi92KcBMJWztb6ZJtz5fQ8E-Wa6wSTHy_FS05uUQYraAeot20-T9TgV2DE90S6mShoGBxmb7IbuYVLBdxJNWkJZK43MrkALISddZSEmV-UISXmmYQUM8aL2_rQ3C4vSZL75Zrjgqt4zJqibTbfUAoQs4m1g">Instagram</a></li>
+      <li><a href="https:/pt-br.facebook.com/local/lists/245019872666104/">Local</a></li>
+      <li><a href="https:/pt-br.facebook.com/fundraisers/">Campanhas de arrecadação de fundos</a></li>
+      <li><a href="https:/pt-br.facebook.com/directory/events/">Eventos</a></li>
+      <li><a href="https:/pt-br.facebook.com/facebook">Sobre</a></li>
+      <li><a href="https:/pt-br.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&extra_1=auto">Criar anúncio</a></li>
+      <li><a href="https:/pt-br.facebook.com/pages/create/?ref_type=sitefooter">Criar Página</a></li>
+      <li><a href="https:/developers.facebook.com/?ref=pf">Desenvolvedores</a></li>
+      <li><a href="https:/pt-br.facebook.com/careers/?ref=pf">Carreiras</a></li>
+      <li><a href="https:/pt-br.facebook.com/privacy/explanation">Privacidade</a></li>
+      <li><a href="https:/pt-br.facebook.com/policies/cookies/">Cookies</a></li>
+      <li><a href="https:/www.facebook.com/help/568137493302217">Opções de anúncio</a></li>
+      <li><a href="https:/pt-br.facebook.com/policies?ref=pf">Termos</a></li>
+      <li><a href="https:/www.facebook.com/help/2687943754764396">Segurança da conta</a></li>
+      <li><a href="https:/www.facebook.com/help/www/1573156092981768/">Ajuda para login</a></li>
+      <li><a href="https:/pt-br.facebook.com/help/?ref=pf">Ajuda</a></li>
+      <li><a href="https:/pt-br.facebook.com/settings">Configurações</a></li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
