@@ -1,1 +1,1 @@
-#Repositório do git hub para realização dos projetos web Trybe
+#Portfólio do git hub para apresentação dos trabalhos realizados durante o curso da Trybe
