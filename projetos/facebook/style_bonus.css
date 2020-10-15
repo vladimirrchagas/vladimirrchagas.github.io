@@ -1,0 +1,357 @@
+.aditional-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.aditional-data label , .radio {
+  font-size: 16px;
+}
+
+.aditional-data p {
+  color: #777;
+  font-size: 11px;
+  text-align: justify;
+}
+
+.create-page {
+  font-size: 13px;
+}
+
+.button-login {
+  background-color: #3f61a5;
+  border-color: rgb(143, 171, 228);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  height: 25px;
+  margin-top: 25px;
+}
+
+.button-login:hover {
+  background-color: rgb(66, 103, 178);
+}
+
+.button-register {
+  align-self: center;
+  background: linear-gradient(#79bc64, #578843);
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  height: 35px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.date {
+  display: flex;
+}
+
+.date input {
+  width: 70%;
+}
+
+.date-value {
+  width: 55%;
+}
+
+.error-form {
+  background-color: rgb(217, 221, 228);
+  display: none;
+  text-align: center;
+}
+
+.facebook-login {
+  align-items: center;
+  display: flex;
+}
+
+.facebook-login input {
+  border-color: rgb(143, 171, 228);
+  height: 20px;
+}
+
+.facebook-logo {
+  width: 150px;
+}
+
+.facebook-networking {
+  width: 70%;
+}
+
+.facebook-slogan {
+  color: rgb(14, 56, 95);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  width: 70%;
+}
+
+.form-control {
+  align-self: flex-end;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-group {
+  align-self: baseline;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.form-group label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.form-register {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gender-custom {
+  align-self: flex-end;
+  display: none;
+  width: 50%;
+}
+
+.idiomas ul , .links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.idiomas ul li , .links ul li {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.left-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.links ul {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.links ul li {
+  font-size: 14px;
+}
+
+.main-content {
+  background: linear-gradient(white, rgb(211, 216, 232));
+  display: flex;
+  justify-content: flex-start;
+}
+
+.miss-account {
+  color: #b5c7e2;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.name-form-register {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  font-size: 12px;
+}
+
+.radio-buttons {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  color: rgb(14, 56, 95);
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.main-content input {
+  border-color: rgb(96, 130, 197);
+  border-radius: 3px;
+  height: 25px;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+
+.name-form-register input {
+  width: 45%;
+}
+
+hr {
+  color: rgb(197, 207, 226);
+  width: 90%;
+}
+
+span {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.date span {
+  color: rgb(14, 56, 95);
+}
+
+@media screen and (max-width: 667px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .classic-facebook {
+    display: none;
+  }
+
+  .top-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .facebook-login {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .form-group , .form-control {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .facebook-login input {
+    background-color: rgb(244, 244, 244);
+    border: 0.5px solid rgb(223, 223, 223);
+    height: 40px;
+    padding: 5px;
+    margin: 0;
+    width: 90%;
+  }
+
+  #user-email-phone {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  #user-password {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .button-login {
+    align-self: center;
+    background-color: rgb(24, 119, 242);
+    font-size: 18px;
+    font-weight: 900;
+    height: 40px;
+    width: 90%;
+  }
+
+  .register {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-register {
+    align-self: center;
+    background: rgb(66, 183, 42);
+    height: 40px;
+    width: 50%;
+  }
+
+  .miss-account {
+    color: rgb(24, 119, 242);
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .miss-account-block {
+    text-align: center;
+  }
+
+  .intern {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+  }
+
+  .internhr {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .idiomas-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .idiomas-mb ul {
+    list-style: none;
+  }
+
+  .ou {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  footer {
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  hr {
+    display: inline-block;
+    width: 100%;
+  }
+}
